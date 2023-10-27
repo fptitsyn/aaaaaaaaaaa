@@ -9,6 +9,11 @@ public class PlayerMovement : MonoBehaviour
 
     private float movementX;
 
+    void Awake()
+    {
+        Debug.Log("SEX");
+    }
+
     private void Update()
     {
         HandlePlayerMovement();
