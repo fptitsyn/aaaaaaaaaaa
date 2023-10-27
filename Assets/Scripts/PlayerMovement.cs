@@ -12,6 +12,11 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isGrounded;
     
+    void Awake()
+    {
+        Debug.Log("SEX");
+    }
+
     private void Update()
     {
         HandlePlayerMovement();
